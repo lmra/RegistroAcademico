@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Calificacion";
+}
+
+<h2>Calificacion</h2>
+
+<div class="row">
+    <form method="POST" action="/ProgramaAcademico/Calificacion">
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="Estudiante" type="text" class="validate">
+                <label for="Estudiante">Estudiante</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="Calificacion" type="text" class="validate">
+                <label for="Calificacion">Calificación</label>
+            </div>
+
+        </div>
+        <input type="button" onclick="history.back()" name="volver atrás" value="volver atrás" />
+
+        </form>
+</div>
+
+

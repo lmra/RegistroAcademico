@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Grupos";
+}
+
+<h2>Grupos</h2>
+
+ <div class="row">
+    <form method="POST" action="/ProgramaAcademico/Grupos">
+
+        
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input placeholder="" id="Nombre" type="text" class="validate">
+                <label for="Nombre">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="Apellido" type="text" class="validate">
+                <label for="Apellido">Nombre Docente Asignado</label>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <label>Fecha de Inicio</label>
+            <input type="date" class="datepicker" />
+        </div>
+
+        <div class="row">
+            <label>Fecha finalización</label>
+            <input type="date" class="datepicker" />
+        </div>
+
+
+
+        <button class="btn waves-effect waves-light" type="submit" name="action">
+            <i class="material-icons right">Guardar</i>
+        </button>
+
+        <input type="button" onclick="history.back()" name="volver atrás" value="volver atrás" />
+
+    </form>
+</div>
+
+
+

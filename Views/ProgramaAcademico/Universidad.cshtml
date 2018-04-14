@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Universidad";
+}
+
+<h2>Universidad</h2>
+
+<div class="row">
+    <form method="POST" action="/ProgramaAcademico/Universidad">
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="Carrera" type="text" class="validate">
+                <label for="Carrera">Carrera</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="Universidad" type="text" class="validate">
+                <label for="Universidad">Universidad</label>
+            </div>
+        </div>
+
+        <input type="button" onclick="history.back()" name="volver atrás" value="volver atrás" />
+        </form>
+</div>
